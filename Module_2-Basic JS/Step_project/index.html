@@ -12,6 +12,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -19,11 +20,14 @@
         <header class="header">
             <div class="header-wrapper">
                 <div class="header-menu">
-                    <p class="header-menu-logo-text">H</p>
-                    <p class="header-text">
-                        the<span class="header-text-ham">Ham</span>
-                    </p>
+                    <a href="#">
+                        <span class="header-menu-logo-text">H</span>
+                        <span class="header-text">
+                            the<span class="header-text-ham">Ham</span>
+                        </span>
+                    </a>
                 </div>
+
                 <div class="header-list">
                     <ul class="header-list-content">
                         <li class="header-list-text">
@@ -167,10 +171,7 @@
                     массы. «Изобретательность Бенджамина Франклина возросла, как и его
                     хитрость, и в 1737 году он заменил своего коллегу в Пенсильвании
                     Эндрю Брэдфорда в качестве почтмейстера и печатника после конкурса,
-                    который он учредил и выиграл. Он продемонстрировал свое мастерство,
-                    разместив объявление в своем журнале „General Magazine“ и
-                    „Исторической хронике британских плантаций в Америке“
-                    (предшественнике „Sunday Evening Post“).
+                    который он учредил и выиграл.
                 </p>
             </div>
             <div class="services-content" id="app">
@@ -196,10 +197,7 @@
                     стилем. Кроме того, Уильям Кэкстон, первый в Англии печатник,
                     выпускал религиозные книги, но с трудом продавал их. Он обнаружил
                     использование оставшихся страниц и использовал их, чтобы объявить о
-                    книгах и разместить их на церковных дверях. Примерно в 1612 году эту
-                    практику назвали плакатами с надписью «squis» или «pin up posters»
-                    («прикалываемые афишы»), став первой формой печатной рекламы в
-                    Европе.
+                    книгах и разместить их на церковных дверях.
                 </p>
             </div>
             <div class="services-content" id="seo">
@@ -260,50 +258,203 @@
                 </li>
             </ul>
             <div class="gallery-content">
-                <div class="image-item" data-gallery="graphic_design">
-                    <img class="img1" src="./Pictures/" alt="image">
+                <div class="image-item img-wrapper" data-gallery="graphic_design">
+                    <img class="img1" src="./Pictures/amazing_block/1.png" alt="image">
+                    <h2 class="gallery-h2">creative design</h2>
+                    <p class="gallery-text">Web Design</p>
                 </div>
                 <div class="image-item" data-gallery="web_design">
-                    <img class="img2" src="./Pictures/" alt="image">
+                    <img class="img2" src="./Pictures/amazing_block/2.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="landing_pages">
-                    <img class="img3" src="./Pictures/" alt="image">
+                    <img class="img3" src="./Pictures/amazing_block/3.png" alt="image">
                 </div>
-                <div class="image-item" data-gallery="graphic_design">
-                    <img class="img4" src="./Pictures/" alt="image">
+                <div class="image-item" data-gallery="wordpress">
+                    <img class="img4" src="./Pictures/amazing_block/4.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="web_design">
-                    <img class="img5" src="./Pictures/" alt="image">
+                    <img class="img5" src="./Pictures/amazing_block/5.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="landing_pages">
-                    <img class="img6" src="./Pictures/" alt="image">
+                    <img class="img6" src="./Pictures/amazing_block/6.png" alt="image">
                 </div>
-                <div class="image-item" data-gallery="graphic_design">
-                    <img class="img7" src="./Pictures/" alt="image">
+                <div class="image-item" data-gallery="wordpress">
+                    <img class="img7" src="./Pictures/amazing_block/7.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="web_design">
-                    <img class="img8" src="./Pictures/" alt="image">
+                    <img class="img8" src="./Pictures/amazing_block/8.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="landing_pages">
-                    <img class="img9" src="./Pictures/" alt="image">
+                    <img class="img9" src="./Pictures/amazing_block/9.png" alt="image">
                 </div>
-                <div class="image-item" data-gallery="graphic_design">
-                    <img class="img10" src="./Pictures/" alt="image">
+                <div class="image-item" data-gallery="wordpress">
+                    <img class="img10" src="./Pictures/amazing_block/10.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="web_design">
-                    <img class="img11" src="./Pictures/" alt="image">
+                    <img class="img11" src="./Pictures/amazing_block/11.png" alt="image">
                 </div>
                 <div class="image-item" data-gallery="landing_pages">
-                    <img class="img12" src="./Pictures/" alt="image">
+                    <img class="img12" src="./Pictures/amazing_block/12.png" alt="image">
                 </div>
             </div>
             <div class="gallery-buttons">
                 <button type="button" class="button-load load_more">
+                    <img class="button-plus" src="./Pictures/amazing_block/load_plus.png" alt="#">
                     Load More
                 </button>
             </div>
         </div>
     </section>
+
+    <section class="breaking">
+        <h2 class="breaking-title">
+            Breaking News
+        </h2>
+        <div class="breaking-container">
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/1.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/2.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/3.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/4.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/5.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/6.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/7.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+            <div class="breaking-content">
+                <a href="#"><img src="./Pictures/breaking_block/8.png" alt="#" class="breaking-img">
+                    <h2 class="breaking-head">Amazing Blog Post</h2>
+                    <div class="breaking-content-wrapp">
+                        <p class="breaking-text-admin">By admin</p>
+                        <p class="breaking-text-comm">2 comment</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sliders">
+        <h2 class="slider-h2">What People Say About theHam</h2>
+        <div class="sliders-container">
+            <div class="swiper slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-text">Historically, the main area of design was regarded as only
+                            architecture, which was understood as the major art. The design of clothing, furniture, and
+                            other common artifacts were left mostly to tradition or artisans specializing in hand making
+                            them.</p>
+                        <h3 class="swiper-slide-name">hasan ali</h3>
+                        <h4 class="swiper-slide-post">Ux Designer</h4>
+                        <img src="./Pictures/web_design/web-design1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-text">With the increasing complexity in industrial design of today's
+                            society, and due to the needs of mass production where more time is usually associated with
+                            more cost, the production methods became more complex and with them, the way designs and
+                            their production are created.</p>
+                        <h3 class="swiper-slide-name">muhammad ali</h3>
+                        <h4 class="swiper-slide-post">Ui Designer</h4>
+                        <img src="./Pictures/web_design/web-design2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-text">The classical areas are now subdivided into smaller and more
+                            specialized domains of design (landscape design, urban design, interior design, industrial
+                            design, furniture design, fashion design, and much more) according to the product designed
+                            or perhaps its means of production.</p>
+                        <h3 class="swiper-slide-name">aken takos</h3>
+                        <h4 class="swiper-slide-post">Xu Designer</h4>
+                        <img src="./Pictures/web_design/web-design3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-text">Using design methods and design thinking to resolve problems and
+                            create new solutions are the most important aspects of being a designer. Part of a
+                            designer's job is to get to know the audience they intend on serving.</p>
+                        <h3 class="swiper-slide-name">artur booblikov</h3>
+                        <h4 class="swiper-slide-post">Iu Designer</h4>
+                        <img src="./Pictures/web_design/web-design4.jpg" />
+                    </div>
+
+                </div>
+            </div>
+            <div thumbsSlider="" class="swiper thumbs-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./Pictures/web_design/web-design1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Pictures/web_design/web-design2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Pictures/web_design/web-design3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Pictures/web_design/web-design4.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>© Copyright 2015 <span class="footer-color"> theHam </span> theHam | All Rights Reserved</h2>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="./script.js"></script>
 </body>
