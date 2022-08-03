@@ -1,0 +1,144 @@
+.main {
+
+    &__title {
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: $main-color;
+        margin-bottom: 24px;
+        padding-top: 56px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        padding-bottom: 69px;
+
+        @media screen and (max-width: $width-desktop) {
+            grid-template-columns: 1fr;
+        }
+
+        @media screen and (max-width: $width-tab) {
+            padding-bottom: 0;
+        }
+
+    }
+
+    &__wrap {
+        display: flex;
+
+        @media screen and (max-width: $width-mobile) {
+
+
+            height: 140px;
+            display: flex;
+
+            &-content {
+
+                &-text {
+                    display: flex;
+                }
+            }
+
+
+            .mobile-none {
+                display: block;
+            }
+        }
+
+
+        @media screen and (max-width: $width-mobile) {
+            display: block;
+
+            &:last-child {
+                display: none;
+            }
+        }
+
+    
+
+    &-picture {
+        margin-right: 20px;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+
+        &-head {
+            color: $main-color;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            @media screen and (max-width:$width-tab){
+                font-size: 14px;
+            }
+        }
+
+        &-comment {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: $main-comment-color;
+            @media screen and (max-width:$width-tab){
+                font-size: 11px;
+            }
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            color: $main-text-color;
+
+        }
+    }
+}
+
+    @media screen and (max-width: $width-tab) {
+
+        &__wrap {
+
+            height: 140px;
+            display: flex;
+            
+            &-content {
+                &-text {
+                    display: none;
+                }
+            }
+        }
+
+        .mobile-none {
+            display: block;
+        }
+
+    }
+    @media screen and (max-width: $width-mobile) {
+
+        &__wrap {
+            margin-bottom: 150px;
+            // height: 140px;
+            display: flex;
+            flex-direction: column;
+            
+            &-content {
+                &-text {
+                    display: none;
+                }
+            }
+        }
+
+        .mobile-none {
+            display: block;
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    ;
+}

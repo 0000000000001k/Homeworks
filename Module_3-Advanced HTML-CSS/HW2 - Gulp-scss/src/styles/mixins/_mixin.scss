@@ -1,0 +1,36 @@
+@mixin screenSize($min, $max) {
+	@media (min-width: $min) and (max-width: $max) {
+		@content
+	}
+}
+
+;
+
+@mixin desktopScreen() {
+	@media (min-width: 1200px) {
+		@content
+	}
+}
+
+;
+
+
+@mixin tabScreen {
+	@media (min-width: 768px) {
+		@content
+	}
+}
+
+;
+
+@mixin tabCenter {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+;
+
+@mixin desktopCenter {
+	max-width: 1170px;
+	margin: 0 auto;
+}
